@@ -40,4 +40,49 @@ The tools used for this project are as follow:
 3. **Google BigQuery**: Used to communicate with the datasets via SQL, here is where most of the work took place, from data combining, to data cleaning and data analysis.
 4. **Tableau Public**: Used to visualize the data, this helps stakeholders to digest the information in an easier way with the production of dashboards.
 
-The datasets were divided into 12, each representing a month of the year, which contains 13 fields related to Ids, dates, locations, riders association status and type of bikes. All documents combined create a single dataset with 5.552.994 rows of data 
+The datasets were divided into 12, each representing a month of the year, which contains 13 fields related to Ids, dates, locations, riders association status and type of bikes. All documents combined create a single dataset with 5.552.994 rows of data.
+
+| No. | Field | Type | Description |
+| --| -- | -- | -- |
+| 1 | ride_id | String | Id of each ride |
+| 2 | rideable_type | String | Types of bike: electric or casual |
+| 3 | started_at | Timestamp | Date and hour at the beginning of the trip |
+| 4 | ended_at | Timestamp | Date and hour at the end of the trip |
+| 5 | start_station_name | String | Name of the station at the beginning of the trip |
+| 6 | start_station_id | String | ID of the station at the beginning of the trip |
+| 7 | end_station_name | String | Name of the station at the end of the trip |
+| 8 | end_station_id | String | ID of the station at the end of the trip |
+| 9 | start_lat | Float | Latitud at the beginning |
+| 10 | start_lng | Float | Longitud at the beginning |
+| 11 | end_lat | Float | Latitud at the end |
+| 12 | end_lng | Float | Longitud at the end |
+| 13 | member_casual | String | Rider status: annual member or casual rider |
+
+### Step 3. Process
+
+For the data cleaning process, I made sure to:
+1. Excel: Change the types of the previously mentioned columns to a more timestamp standard format as it allowed me to process it easier in BigQuery once I uploaded the data.
+2. On BigQuery: created 7 more columns using the fields started_at and ended_at:
+   
+| No. | Field | Type | Description |
+| --| -- | -- | -- |
+| 1 |start_date | Date | Date at the start of the trip |
+| 2 | start_hour | Integer | Hour (0-23) at the start of the trip |
+| 3 | end_date | Date | Date at the end of the trip |
+| 4 | end_hour | Integer | Hour (0-23) at the end of the trip |
+| 5 | month | String | List of months |
+| 6 | day_of_week | String | List of day of the week with Sunday being the first |
+| 7 | trip_duration_minutes | Integer | Duration in minutes of the trip from start to end |
+
+Note: To calculate the trip duration, I used a function to convert all the result of the differece from start to end to their abolute value, some of the values encountered were negative. My assumption is that there was an error withing the tracking system which swaped the started_at and ended_at dates creating these values. I kept those values and performed my analysis following said assumption.
+
+3. Filtered the data to exclude null values within the columns start_station_name and end_station_name. 
+4. Filtered the data to allow trip_duration_minutes values within the range of 0 to 60 minutes. This range was chosen as activities and trips perfomed out of said range were considered out of the behaviour of regular bikes(outliers).
+
+With these measures, the final dataset has 3.600.473 out of the 5.552.994 rows of data (around 64% of the combined dataset). 
+
+### Step 4. Analysis 
+
+- **Totals Rides per Type of Rider**
+  
+![]("C:\Users\juanp\Pictures\Screenshots\Member vs Casual  Total.png")
