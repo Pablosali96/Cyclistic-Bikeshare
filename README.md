@@ -85,4 +85,23 @@ With these measures, the final dataset has 3.600.473 out of the 5.552.994 rows o
 
 - **Totals Rides per Type of Rider**
   
-![]("C:\Users\juanp\Pictures\Screenshots\Member vs Casual  Total.png")
+![image alt](https://github.com/Pablosali96/Cyclistic-Bikeshare/blob/dc658217c0f8fc9d3093ff8150b3735f1d2b22fd/Cyclistic%20Images/Distribution%20Members-Casual.png)
+
+<ins>65.43%</ins> of riders are annual members while casual riders represent <ins>34.57%</ins> of riders. This goes against my initial assumption, starting this project I thought that casual riders would represent most of the total riders.
+
+
+-**Bike Types per Type of Rider**
+<img width="1238" height="712" alt="Distribution Bikes Type" src="https://github.com/user-attachments/assets/abfe79c3-965f-41af-ae40-865d574b3d38" />
+
+We can see that **Annual members** are more eager to use classic bikes than electric bikes (54% to 46% respectively), while **Casual riders** opt to use electric bikes with more frequency than classic bikes (51% to 49% respectively). In previous years, there was another bike type called **docked bikes**, this was not found within the 2025 data.
+
+
+-**Most Frequent Hours For Rides**
+<img width="1233" height="714" alt="Screenshot 2026-01-24 071034" src="https://github.com/user-attachments/assets/ffd4a9df-e2c7-4295-9048-e80487353a55" />
+
+Both **Annual members** and **Casual riders** use the bikes with more frequency in the afternoon hours (3pm to 6 pm). The former differentiate from the latter with two peaks of activity in the morning hour of 7-8 am, this could mean that **Annual Members** are using Cyclistic bikes for morning activities such as exercise or to commute to work while **Casual riders** may be taking advantage of the afternoon hours to exercise, explore the city or to socialize.
+
+
+-**Days of the week**
+
+<img width="1644" height="790" alt="Screenshot 2026-01-24 072221" src="https://github.com/user-attachments/assets/74451ab5-4ef9-4a7e-ba39-f42af1aab839" />
