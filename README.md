@@ -102,6 +102,72 @@ We can see that **Annual members** are more eager to use classic bikes than elec
 Both **Annual members** and **Casual riders** use the bikes with more frequency in the afternoon hours (3pm to 6 pm). The former differentiate from the latter with two peaks of activity in the morning hour of 7-8 am, this could mean that **Annual Members** are using Cyclistic bikes for morning activities such as exercise or to commute to work while **Casual riders** may be taking advantage of the afternoon hours to exercise, explore the city or to socialize.
 
 
--**Days of the week**
+-**Days of the Week**
 
 <img width="1644" height="790" alt="Screenshot 2026-01-24 072221" src="https://github.com/user-attachments/assets/74451ab5-4ef9-4a7e-ba39-f42af1aab839" />
+
+
+There are some interesting trends here:
+-**Annual members** use the cyclistic bikes more often on the weekdays with weekends being given less priority, this may support the theory where these members use their bikes for work commute or as exercise pre work or study activities
+-**Casual riders**, on the contrary, use the cyclistic bikes on the weekends with **saturday** being the peak, these members may be taking advantage of the time and freedom from work activities to engange on the points prevously mentioned the graph before.
+
+-**Number of Rides per Month**
+
+<img width="1236" height="713" alt="Number of Rides per Month" src="https://github.com/user-attachments/assets/61e4bdc7-db15-49e6-89ca-d3de0c642686" />
+
+Both groups take advantage of the summer months (June-July-August), with good weather, more activities around the city and better capacity to enjoy the beaches. **Annual members** do extend their activity peak to half way through Autum (September-Obtober) plummeting their ride activities afterwards, while **Casual riders** start slowing down just as the summer comes to an end.
+
+
+-**Trip duration length per Group**
+
+<img width="1238" height="716" alt="Distribution Trip Duration" src="https://github.com/user-attachments/assets/27add34a-cded-4d02-ab33-e5e6e81ce5e5" />
+
+An interesting observation in this graph comes from the time bin of 0 to 5 minute trips, where both groups present higher activities than the average with **Annual members** being predominant in this category. This is something that needs to be looked after with greater detail: What is the distribution in this time bin alone? Where could this short trips lead users to? Is this information accurate?. 
+
+Nonetheless, **Annual members** engage more on trips from 0 to 20 minutes which make be a more supporting factor on the theory previously mentioned. **Casual riderss** do spread themselves a bit more throughout the different time bins having an additional time being (20-25 minutes) above average. This group of riders may be using cyclistic bikes to explore further, to more distant places; they also could be more prone to not dock the bikes after each use.
+
+
+-**Annual members maps**
+
+For the analysis of both maps (start and end station names) for both groups (annual members and casual riders) I decided to select the top 200 stations as I found 1893 distinct start station names and 1901 end station names
+
+<img width="1628" height="777" alt="Station Map Annual Members" src="https://github.com/user-attachments/assets/b04cd573-127d-4862-8539-db4a91e4fc7a" />
+
+
+Annual members are more prone to start and end their rides around the areas of West Loop Gate and River North:
+- Kingsbury St & Kinzie St: 26k rides
+- Clinton St & Washington Blvd: 22k rides
+- Clinton St & Madison St: 19k rides
+- Canal St & Madison St: 19k rides
+
+These stations remain consistent for both beginning and end of the trips.
+
+-**Casual members maps**
+
+<img width="1632" height="781" alt="Station Map Casual Riders" src="https://github.com/user-attachments/assets/69ca9f2e-f974-4be3-ac3f-7768af9c6171" />
+
+
+
+Casual riders frequent more the beaches and the roads along the coast, as well as Grant Parl and the Museum Campus:
+- DuSable Lake Shore Dr & Monroe St: 24k rides
+- Navy Pier: 22k rides
+- DuSable Lake Shore Dr & North Blvd: 17k rides
+- Michigan Ave & Oak St: 17k rides
+
+
+### Step 5. Share
+
+<img width="1645" height="793" alt="Cyclistic 1" src="https://github.com/user-attachments/assets/ffcb688e-c215-4a7e-a2c6-88bccde0cc00" />
+<img width="1645" height="793" alt="Cyclistic 2" src="https://github.com/user-attachments/assets/5314d41f-9782-4fcc-bdac-5f0951807b01" />
+
+
+These are the main differences we can see from each of the groups:
+
+| Annual Members | Casual Riders |
+| -- | -- |
+| Peak activity in hours of commute to and from work (7-8 am & 3-6 pm) | Peak activity hours throughout the afternoon |
+| Use classic bikes with more frequency | Use electric bikes with more frequency |
+| More active on the weekdays | More active on the weekends |
+| Externd their activity peak all summer through the middle of autumn | Peak activity on the summer months decreasing as autumn comes |
+| Prone to use cyclistic bikes for trips up to 20 min | Prone to extend their bike ride duration more evenly |
+| More usage of cyclistic bikes near the urban central area of chicago city | More usage of cyclistic bikes near the beach and other touristic places  |
