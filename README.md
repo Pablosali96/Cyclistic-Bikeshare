@@ -31,10 +31,10 @@ The following data has been made available by Motivate International Inc. under 
 Source of the data: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 Here you can find the links for the SQL queries within the project:
-- Data Combining 
-- Data Exploration
-- Data Cleaning
-- Data Analysis
+- [Data Combining](https://github.com/Pablosali96/Cyclistic-Bikeshare/blob/c8a66fad930cf9e613a2419ee7ffdbf6a109a758/01_Data_Combining.sql) 
+- [Data Exploration](https://github.com/Pablosali96/Cyclistic-Bikeshare/blob/c8a66fad930cf9e613a2419ee7ffdbf6a109a758/02_Data_Exploration.sql)
+- [Data Cleaning](https://github.com/Pablosali96/Cyclistic-Bikeshare/blob/c8a66fad930cf9e613a2419ee7ffdbf6a109a758/03_Data_Cleaning.sql)
+- [Data Analysis](https://github.com/Pablosali96/Cyclistic-Bikeshare/blob/c8a66fad930cf9e613a2419ee7ffdbf6a109a758/04_Data%20Analysis.sql)
 
 Note: Even thought the scenario and the company are fictional, the data provided is real
 
