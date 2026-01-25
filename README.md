@@ -30,6 +30,12 @@ This will be the deliverables for this project:
 The following data has been made available by Motivate International Inc. under the following [license](https://divvybikes.com/data-license-agreement).
 Source of the data: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
+Here you can find the links for the SQL queries within the project:
+- Data Combining 
+- Data Exploration
+- Data Cleaning
+- Data Analysis
+
 Note: Even thought the scenario and the company are fictional, the data provided is real
 
 I decided to use the most recent and available data from the year 2025. This will be usefull overall as the results from this project, even though this is out of the scope of the project, can be compared with those of prevous project and years. It can tell us how the patterns of behaviour from the annual members and casual riders have evolved overtime.
