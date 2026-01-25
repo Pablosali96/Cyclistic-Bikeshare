@@ -160,6 +160,8 @@ Casual riders frequent more the beaches and the roads along the coast, as well a
 <img width="1645" height="793" alt="Cyclistic 1" src="https://github.com/user-attachments/assets/ffcb688e-c215-4a7e-a2c6-88bccde0cc00" />
 <img width="1645" height="793" alt="Cyclistic 2" src="https://github.com/user-attachments/assets/5314d41f-9782-4fcc-bdac-5f0951807b01" />
 
+Link to view the [Tableau Dashboard](https://public.tableau.com/app/profile/juan.pablo.alvarez5922/viz/CyclisticBikeshareAnalysis_17693104188700/DistributionMembers-CasualRiders)
+
 
 These are the main differences we can see from each of the groups:
 
@@ -171,3 +173,5 @@ These are the main differences we can see from each of the groups:
 | Externd their activity peak all summer through the middle of autumn | Peak activity on the summer months decreasing as autumn comes |
 | Prone to use cyclistic bikes for trips up to 20 min | Prone to extend their bike ride duration more evenly |
 | More usage of cyclistic bikes near the urban central area of chicago city | More usage of cyclistic bikes near the beach and other touristic places  |
+
+### Step 6. Act
