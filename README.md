@@ -121,7 +121,7 @@ There are some interesting trends here:
 
 <img width="1236" height="713" alt="Number of Rides per Month" src="https://github.com/user-attachments/assets/61e4bdc7-db15-49e6-89ca-d3de0c642686" />
 
-Both groups take advantage of the summer months (June-July-August), with good weather, more activities around the city and better capacity to enjoy the beaches. **Annual members** do extend their activity peak to halfway through Autumn (September-Obtober) plummeting their riding activities afterwards, while **Casual riders** start slowing down just as the summer comes to an end.
+Both groups take advantage of the summer months (June-July-August), with good weather, more activities around the city and better capacity to enjoy the beaches. **Annual members** do extend their activity peak to halfway through Autumn (September-October) plummeting their riding activities afterwards, while **Casual riders** start slowing down just as the summer comes to an end.
 
 
 -**Trip duration length per Group**
@@ -176,7 +176,7 @@ These are the main differences we can see from each groups:
 | Peak activity in hours of commute to and from work (7-8 am & 3-6 pm) | Peak activity hours throughout the afternoon |
 | Use classic bikes with more frequency | Use electric bikes with more frequency |
 | More active on the weekdays | More active on the weekends |
-| Externd their activity peak all summer through the middle of autumn | Peak activity on the summer months decreasing as autumn comes |
+| Extend their activity peak all summer through the middle of autumn | Peak activity on the summer months decreasing as autumn comes |
 | Prone to use cyclistic bikes for trips up to 20 min | Prone to extend their bike ride duration more evenly |
 | More usage of cyclistic bikes near the urban central area of chicago city | More usage of cyclistic bikes near the beach and other touristic places  |
 
@@ -190,7 +190,7 @@ After identifying how casual riders behave with the previous analysis, my top <i
 
 2. <ins>Monthly membership</ins>
 
-   A new tier of **membership of monthly usage** could be enticing for riders who may come to the city for a season or for those who want to take advantage of the membership perks without having to commit for the whole year. This also allows users to have a taste of the membership experience, which may change their minds aboout purchasing an annual membership.
+   A new tier of **membership of monthly usage** could be enticing for riders who may come to the city for a season or for those who want to take advantage of the membership perks without having to commit for the whole year. This also allows users to have a taste of the membership experience, which may change their minds about purchasing an annual membership.
 
 3. <ins>Seasonal membership</ins>
 
